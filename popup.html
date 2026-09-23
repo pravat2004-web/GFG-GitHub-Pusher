@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>GFG GitHub Pusher</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h2>GFG → GitHub</h2>
+
+    <label>GitHub Username</label>
+    <input
+        type="text"
+        id="username"
+        placeholder="pravat2004-web"
+    >
+
+    <label>Repository</label>
+    <input
+        type="text"
+        id="repo"
+        placeholder="Algorithm-Practice"
+    >
+
+    <label>GitHub Token</label>
+    <input
+        type="password"
+        id="token"
+        placeholder="github_pat_..."
+    >
+
+    <label>Category</label>
+
+    <select id="category">
+        <option value="Arrays">Arrays</option>
+        <option value="Strings">Strings</option>
+        <option value="LinkedList">LinkedList</option>
+        <option value="Stack">Stack</option>
+        <option value="Queue">Queue</option>
+        <option value="Trees">Trees</option>
+        <option value="Graphs">Graphs</option>
+        <option value="Searching">Searching</option>
+        <option value="Sorting">Sorting</option>
+        <option value="Recursion">Recursion</option>
+        <option value="DynamicProgramming">
+            DynamicProgramming
+        </option>
+        <option value="Others">Others</option>
+    </select>
+
+    <label>Language</label>
+
+    <select id="language">
+        <option value="java">Java</option>
+        <option value="cpp">C++</option>
+        <option value="py">Python</option>
+        <option value="c">C</option>
+        <option value="js">JavaScript</option>
+    </select>
+
+    <button id="push">
+        🚀 Push to GitHub
+    </button>
+
+    <p id="status"></p>
+
+    <script src="popup.js"></script>
+
+</body>
+
+</html>
